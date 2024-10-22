@@ -20,6 +20,23 @@ function loadModulePkg(name) {
   }
 }
 
+function loadProjectPkg() {
+  try {
+    const projectPkgPath = path.resolve(process.cwd(), 'package.json')
+    return require(projectPkgPath)
+  } catch (e) {
+    return undefined
+  }
+}
+
+function getPkgFramework() {
+  const pkg = loadProjectPkg()
+  if (!pkg) {
+    return undefined
+  }
+  return pkg['v-demi-framework']
+}
+
 function checkVersion(srcV, destV) {
   const srcVArr = srcV.split('-')[0].split('.').map(v => +v)
   const destVArr = destV.split('-')[0].split('.').map(v => +v)
@@ -109,3 +126,5 @@ module.exports.loadModule = loadModule
 module.exports.switchVersion = switchVersion
 module.exports.loadModulePkg = loadModulePkg
 module.exports.checkVersion = checkVersion
+module.exports.loadProjectPkg = loadProjectPkg
+module.exports.getPkgFramework = getPkgFramework
