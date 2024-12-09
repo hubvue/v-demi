@@ -1,12 +1,15 @@
 {
   "name": "@v-demi/use-mouse",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
   "license": "MIT",
+  "bin": {
+    "v-demi-fix": "bin/v-demi-fix.js"
+  },
   "dependencies": {
-    "v-demi": "latest"
+    "v-demi": "0.1.2-beta.5"
   },
   "devDependencies": {
     "@mpxjs/api-proxy": "^2.9.61",

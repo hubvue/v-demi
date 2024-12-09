@@ -5,10 +5,10 @@ specifiers:
   '@mpxjs/core': ^2.9.59
   '@mpxjs/store': ^2.9.59
   typescript: latest
-  v-demi: latest
+  v-demi: 0.1.2-beta.5
 
 dependencies:
-  v-demi: 0.1.2-beta.4_@mpxjs+core@2.9.69
+  v-demi: 0.1.2-beta.5_@mpxjs+core@2.9.69
 
 devDependencies:
   '@mpxjs/api-proxy': 2.9.69_@mpxjs+core@2.9.69
@@ -187,8 +187,8 @@ packages:
     hasBin: true
     dev: true
 
-  /v-demi/0.1.2-beta.4_@mpxjs+core@2.9.69:
-    resolution: {integrity: sha512-PxBg/oStYge+9t/4cArQipkWq+D4tAnOs9D9mlDmguFBy2DxfApgb3k/GeBQRXY2JCWd+O9EdAEDyujVW+Iasw==}
+  /v-demi/0.1.2-beta.5_@mpxjs+core@2.9.69:
+    resolution: {integrity: sha512-TfLvtYd0ShIveJL0DAihUxS4kIRCBo/SYVf2EZGSqsJ3iJVVNALsFvw3x0lQv9J6QQjJxDJFQDIfR9N8GxEieA==}
     engines: {node: '>=12'}
     hasBin: true
     requiresBuild: true

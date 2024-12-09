@@ -15,6 +15,6 @@
     "@mpxjs/core": "^2.9.59",
     "@mpxjs/store": "^2.9.59",
     "vue": "^2.7.10",
-    "@v-demi/use-mouse": "latest"
+    "@v-demi/use-mouse": "0.0.2"
   }
 }
