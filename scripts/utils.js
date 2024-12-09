@@ -22,8 +22,12 @@ function loadModulePkg(name) {
 
 function loadProjectPkg() {
   try {
+    console.log('process.cwd()', process.cwd())
     const projectPkgPath = path.resolve(process.cwd(), 'package.json')
-    return require(projectPkgPath)
+    console.log('pkg path', projectPkgPath)
+    const pkg = require(projectPkgPath)
+    console.log('pkg', pkg)
+    return pkg
   } catch (e) {
     return undefined
   }

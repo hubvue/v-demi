@@ -1,0 +1,208 @@
+lockfileVersion: 5.4
+
+specifiers:
+  '@mpxjs/api-proxy': ^2.9.61
+  '@mpxjs/core': ^2.9.59
+  '@mpxjs/store': ^2.9.59
+  typescript: latest
+  v-demi: latest
+
+dependencies:
+  v-demi: 0.1.2-beta.4_@mpxjs+core@2.9.69
+
+devDependencies:
+  '@mpxjs/api-proxy': 2.9.69_@mpxjs+core@2.9.69
+  '@mpxjs/core': 2.9.69_2kmgyc2hto4qgckp3bwogurjnm
+  '@mpxjs/store': 2.9.69_@mpxjs+core@2.9.69
+  typescript: 5.7.2
+
+packages:
+
+  /@mpxjs/api-proxy/2.9.69_@mpxjs+core@2.9.69:
+    resolution: {integrity: sha512-iUQb5i99WptmBHoNGTbb+qiGnH25cdzVwvjJ3HiDs2AV82TxmwOTs81gibfXSJBMoDlSJwn173jYWdj3p48kFA==}
+    peerDependencies:
+      '@ant-design/react-native': ^5.1.3
+      '@react-native-async-storage/async-storage': ^1.23.1
+      '@react-native-community/netinfo': ^11.2.1
+      react-native-device-info: ^10.13.2
+      react-native-get-location: ^4.0.1
+      react-native-haptic-feedback: ^2.3.3
+      react-native-safe-area-context: ^4.10.1
+    peerDependenciesMeta:
+      '@ant-design/react-native':
+        optional: true
+      '@react-native-async-storage/async-storage':
+        optional: true
+      '@react-native-community/netinfo':
+        optional: true
+      react-native-device-info:
+        optional: true
+      react-native-get-location:
+        optional: true
+      react-native-haptic-feedback:
+        optional: true
+      react-native-safe-area-context:
+        optional: true
+    dependencies:
+      '@mpxjs/utils': 2.9.69_@mpxjs+core@2.9.69
+      axios: 1.7.9
+    transitivePeerDependencies:
+      - '@mpxjs/core'
+      - debug
+
+  /@mpxjs/core/2.9.69_2kmgyc2hto4qgckp3bwogurjnm:
+    resolution: {integrity: sha512-FKNBRve6dNqar1UrNddZld8PSCPY+teVai1I2uGcbDwevx6PuFdXc7MF1mpwXOXvx2ryAEFW1g1JFU/jbRO8RQ==}
+    peerDependencies:
+      '@ant-design/react-native': ^5.1.3
+      '@d11/react-native-fast-image': ^8.6.12
+      '@mpxjs/api-proxy': ^2.9.0
+      '@mpxjs/store': ^2.9.0
+      '@react-navigation/native': ^7.0.3
+      '@react-navigation/stack': ^7.0.4
+      react: '*'
+      react-native: '*'
+      react-native-gesture-handler: ^2.19.0
+      react-native-linear-gradient: ^2.8.3
+      react-native-safe-area-context: ^4.14.0
+      react-native-screens: ^4.1.0
+      react-native-webview: ^13.10.5
+      vue: ^2.7.10
+      vue-demi: ^0.14.6
+      vue-i18n: ^8.27.2
+      vue-i18n-bridge: ^9.2.2
+    peerDependenciesMeta:
+      '@ant-design/react-native':
+        optional: true
+      '@d11/react-native-fast-image':
+        optional: true
+      '@react-navigation/native':
+        optional: true
+      '@react-navigation/stack':
+        optional: true
+      react:
+        optional: true
+      react-native:
+        optional: true
+      react-native-gesture-handler:
+        optional: true
+      react-native-linear-gradient:
+        optional: true
+      react-native-safe-area-context:
+        optional: true
+      react-native-screens:
+        optional: true
+      react-native-webview:
+        optional: true
+      vue:
+        optional: true
+      vue-demi:
+        optional: true
+      vue-i18n:
+        optional: true
+      vue-i18n-bridge:
+        optional: true
+    dependencies:
+      '@mpxjs/api-proxy': 2.9.69_@mpxjs+core@2.9.69
+      '@mpxjs/store': 2.9.69_@mpxjs+core@2.9.69
+      '@mpxjs/utils': 2.9.69_@mpxjs+core@2.9.69
+      lodash: 4.17.21
+      miniprogram-api-typings: 3.12.3
+
+  /@mpxjs/store/2.9.69_@mpxjs+core@2.9.69:
+    resolution: {integrity: sha512-m4naK80uGNqtQJIWTP+hyCoX+z9IHX3kjarjW29Lo04UDWYtg79ePrkzh7XeQ1msYuL4hfVORIfeGcXEQtJFfg==}
+    peerDependencies:
+      '@mpxjs/core': ^2.9.0
+    dependencies:
+      '@mpxjs/core': 2.9.69_2kmgyc2hto4qgckp3bwogurjnm
+      '@mpxjs/utils': 2.9.69_@mpxjs+core@2.9.69
+
+  /@mpxjs/utils/2.9.69_@mpxjs+core@2.9.69:
+    resolution: {integrity: sha512-B/JUiRDFON74xxcs5KPIPNTgJC2nq0gXz+SJNkDLHEh3/w/tavxTKUwozXy9iN5djGsyao0YCeC88bCjzXM4Bg==}
+    peerDependencies:
+      '@mpxjs/core': ^2.9.58
+    dependencies:
+      '@mpxjs/core': 2.9.69_2kmgyc2hto4qgckp3bwogurjnm
+
+  /asynckit/0.4.0:
+    resolution: {integrity: sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==}
+
+  /axios/1.7.9:
+    resolution: {integrity: sha512-LhLcE7Hbiryz8oMDdDptSrWowmB4Bl6RCt6sIJKpRB4XtVf0iEgewX3au/pJqm+Py1kCASkb/FFKjxQaLtxJvw==}
+    dependencies:
+      follow-redirects: 1.15.9
+      form-data: 4.0.1
+      proxy-from-env: 1.1.0
+    transitivePeerDependencies:
+      - debug
+
+  /combined-stream/1.0.8:
+    resolution: {integrity: sha512-FQN4MRfuJeHf7cBbBMJFXhKSDq+2kAArBlmRBvcvFE5BB1HZKXtSFASDhdlz9zOYwxh8lDdnvmMOe/+5cdoEdg==}
+    engines: {node: '>= 0.8'}
+    dependencies:
+      delayed-stream: 1.0.0
+
+  /delayed-stream/1.0.0:
+    resolution: {integrity: sha512-ZySD7Nf91aLB0RxL4KGrKHBXl7Eds1DAmEdcoVawXnLD7SDhpNgtuII2aAkg7a7QS41jxPSZ17p4VdGnMHk3MQ==}
+    engines: {node: '>=0.4.0'}
+
+  /follow-redirects/1.15.9:
+    resolution: {integrity: sha512-gew4GsXizNgdoRyqmyfMHyAmXsZDk6mHkSxZFCzW9gwlbtOW44CDtYavM+y+72qD/Vq2l550kMF52DT8fOLJqQ==}
+    engines: {node: '>=4.0'}
+    peerDependencies:
+      debug: '*'
+    peerDependenciesMeta:
+      debug:
+        optional: true
+
+  /form-data/4.0.1:
+    resolution: {integrity: sha512-tzN8e4TX8+kkxGPK8D5u0FNmjPUjw3lwC9lSLxxoB/+GtsJG91CO8bSWy73APlgAZzZbXEYZJuxjkHH2w+Ezhw==}
+    engines: {node: '>= 6'}
+    dependencies:
+      asynckit: 0.4.0
+      combined-stream: 1.0.8
+      mime-types: 2.1.35
+
+  /lodash/4.17.21:
+    resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
+
+  /mime-db/1.52.0:
+    resolution: {integrity: sha512-sPU4uV7dYlvtWJxwwxHD0PuihVNiE7TyAbQ5SWxDCB9mUYvOgroQOwYQQOKPJ8CIbE+1ETVlOoK1UC2nU3gYvg==}
+    engines: {node: '>= 0.6'}
+
+  /mime-types/2.1.35:
+    resolution: {integrity: sha512-ZDY+bPm5zTTF+YpCrAU9nK0UgICYPT0QtT1NZWFv4s++TNkcgVaT0g6+4R2uI4MjQjzysHB1zxuWL50hzaeXiw==}
+    engines: {node: '>= 0.6'}
+    dependencies:
+      mime-db: 1.52.0
+
+  /miniprogram-api-typings/3.12.3:
+    resolution: {integrity: sha512-o7bOfrU28MEMCBWo83nXv0ROQSBFxJcfCl4f2wTYqah64ipC5RGqLJfvWJTWhlQt2ECVwspSzM8LgvnfMo7TEQ==}
+
+  /proxy-from-env/1.1.0:
+    resolution: {integrity: sha512-D+zkORCbA9f1tdWRK0RaCR3GPv50cMxcrz4X8k5LTSUD1Dkw47mKJEZQNunItRTkWwgtaUSo1RVFRIG9ZXiFYg==}
+
+  /typescript/5.7.2:
+    resolution: {integrity: sha512-i5t66RHxDvVN40HfDd1PsEThGNnlMCMT3jMUuoh9/0TaqWevNontacunWyN02LA9/fIbEWlcHZcgTKb9QoaLfg==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+    dev: true
+
+  /v-demi/0.1.2-beta.4_@mpxjs+core@2.9.69:
+    resolution: {integrity: sha512-PxBg/oStYge+9t/4cArQipkWq+D4tAnOs9D9mlDmguFBy2DxfApgb3k/GeBQRXY2JCWd+O9EdAEDyujVW+Iasw==}
+    engines: {node: '>=12'}
+    hasBin: true
+    requiresBuild: true
+    peerDependencies:
+      '@mpxjs/core': ^2.7.0
+      '@vue/composition-api': ^1.0.0-rc.1
+      vue: ^3.0.0-0 || ^2.6.0
+    peerDependenciesMeta:
+      '@mpxjs/core':
+        optional: true
+      '@vue/composition-api':
+        optional: true
+      vue:
+        optional: true
+    dependencies:
+      '@mpxjs/core': 2.9.69_2kmgyc2hto4qgckp3bwogurjnm
+    dev: false
