@@ -34,7 +34,7 @@ function getPkgFramework() {
   if (!pkg) {
     return undefined
   }
-  return pkg['v-demi-framework']
+  return pkg['v-demi']
 }
 
 function checkVersion(srcV, destV) {
